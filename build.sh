@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cairosvg -s 4 -o logo.png logo.svg
-cairosvg -s 4 -o vanipack/logo.png vanipack/logo.svg
-cairosvg -s 4 -o vanilla-make/logo.png vanilla-make/logo.svg
+inkscape -w 1000 -h 1000 -e logo.png logo.svg
+inkscape -w 1920 -h 960 -e vanipack/logo.png vanipack/logo.svg
+inkscape -w 3200 -h 960 -e vanilla-make/logo.png vanilla-make/logo.svg
